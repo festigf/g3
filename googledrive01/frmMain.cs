@@ -22,8 +22,8 @@ namespace googledrive01
 {
     public partial class frmMain : Form
     {
-        String CLIENT_ID = "290928673113.apps.googleusercontent.com";
-        String CLIENT_SECRET = "BNWwo6ZOKh7xCOq-Smw8UmGc";
+        //String CLIENT_ID = "290928673113.apps.googleusercontent.com";
+       // String CLIENT_SECRET = "BNWwo6ZOKh7xCOq-Smw8UmGc";
 
         // Register the authenticator and create the service
         NativeApplicationClient provider = null;
@@ -44,7 +44,7 @@ namespace googledrive01
             service = new DriveService(auth);
             //FilesResource.ListRequest fl = service.Files.List();
             
-            this.tsMessage.Text = "Login ok";
+            this.tsMessage.Text = "Login ok!";
 
         }
 
